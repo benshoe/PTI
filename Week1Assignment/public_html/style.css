@@ -1,10 +1,36 @@
+* {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+body {
+    /*background-color: lightgrey;*/
+}
+
+#topbar {
+    height: 90px;
+}
+
+#sidenav {
+    height: auto;
+    width: 300px;
+    float: left;
+    background-color: transparent;
+    overflow-y: scroll;
+}
+
+#sidenav > h2 {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
 
 .main-modules {
+    margin-left: 320px;
     font-size: 20pt;
 }
 
 .module {
     color: blue;
+    margin-top: 20px;
 }
 
 .module-text {
@@ -14,9 +40,21 @@
 #uol-image {
     height: 300px;
     float: right;
-    margin: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
-.read-more-txt {
-    background-color: lightgrey;
+
+ol > li::first-line {
+    color: blue;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+#copyright {
+    font-size: 10pt;
+    border-top: 1px solid black;
+    padding-top: 10px;
 }
