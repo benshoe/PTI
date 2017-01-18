@@ -3,7 +3,7 @@
 Created on : 15 January 2017, 18:33:28
     Author : Ben Schoen
 -->
-<html lang="en">
+<html lang="en"> <!-- This language setting was recommended after validating this document -->
     <head>
         <!-- An external stylesheet is configured here -->
         <link rel="stylesheet" href="style.css" type="text/css"/>
@@ -19,21 +19,29 @@ Created on : 15 January 2017, 18:33:28
             <h3>Read more at <a href="https://www.online.liverpool.ac.uk/programmes/msc-in-software-engineering/structure#0Y0r3mYSFIc5ey0e.99" title="Open Software Engineering site in new page" target="_blank">Software Engineering</a></h3>
         </div>
         <!-- The image is found on the opendays site promoting the University of Liverpool (http://www.opendays.com/institutions/university+of+liverpool-profile-overview.aspx) -->
+        <!-- The image has an id so it can be referenced by from the CSS file -->
         <img id="uol-image" src="./images/uol.jpg" alt="University of Liverpool"/>
         <div>
-            <div id="sidenav">
+            <div id="sidenav"> <!-- Another div with an id -->
                 <h2>Previous modules</h2>
+                <!-- The following links have a reference pointing to an anchor on this page e.g. #ckit-501 -->
                 <p><a href="#ckit-501">CKIT-501: Computer Structures</a></p>
                 <p><a href="#ckit-510">CKIT-510: Object Oriented Programming with Java</a></p>
                 <p><a href="#ckit-507">CKIT-507: Software Engineering</a></p>
                 <p><a href="#ckit-504">CKIT-504: Designing and Managing Databases</a></p>
                 <p><a href="#ckit-522">CKIT-522: Professional Issues Computing</a></p>
                 <p><a href="#ckit-515">CKIT-515: Systems Analysis & Design Using an Object-Oriented Approach</a></p>
-                <h2>Interesting links</h2>
+                <h2>Interesting links</h2>             
+                <p><a href="https://www.refworks.com/">RefWorks Login</a>
+                <p><a href="https://my.ohecampus.com/lens/login">Laureate LENS Login</a>
+                <p><a href="https://www.liverpool.ac.uk/library/">UoL Library</a>
+                <p><a href="https://owl.english.purdue.edu/owl/resource/563/01/">Purdue Online Writing Lab</a></p>
                 <p><a href="http://www.sitepoint.com/important-software-development-trends-2015/">Software development trends</a>
             </div>
-            <div class="main-modules">
-                <ul>
+            <div class="main-modules"> <!-- The div containing all modules -->
+                <!-- The modules are in an unordered list -->
+                <ol>
+                    <!-- And this is the anchor to which the links can navigate -->
                     <li id="ckit-501"><div class="module">CKIT-501: Computer Structures</div>
                         <div class="module-text"><p>This module covers everything from computer architecture to databases, 
                                 algorithms, languages, operating systems, communications, computer networks, artificial intelligence 
@@ -45,6 +53,7 @@ Created on : 15 January 2017, 18:33:28
                                 developments as Information Technology (IT) professionals.
                             </p>                        
                         </div>
+                        <!-- The class back-to-top is defined in the CSS file and this link references the #topbar anchor at the top of the page -->
                         <div class="back-to-top"><a href="#topbar">Back to top</a></div>
                     </li>
                     <li id="ckit-510"><div class="module">CKIT-510: Object Oriented Programming with Java</div>
@@ -109,11 +118,9 @@ Created on : 15 January 2017, 18:33:28
                         </div>
                         <div class="back-to-top"><a href="#topbar">Back to top</a></div>    
                     </li>
-                </ul>
-                <div id="copyright">&copy; Ben Schoen - 2017 - University of Liverpool - Week 1 Assignment</div>              
+                </ol>
+                <div id="copyright">&copy; Ben Schoen - 2017 - University of Liverpool - Week 1 Assignment</div>
             </div>
-
         </div>
-
     </body>
 </html>

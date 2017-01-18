@@ -33,20 +33,22 @@ body {
 
 #sidenav a:visited {
     text-decoration: none;
+    color: black;
 }
 
 .main-modules {
     margin-left: 320px;
     font-size: 20pt;
+    color: blue;
 }
 
-.module {
-    color: blue;
+.module {    
     margin-top: 20px;
     border-bottom: 1px solid blue;
 }
 
 .module-text {
+    color: black;
     font-size: 12pt;
 }
 
@@ -62,9 +64,13 @@ ul li {
 }
 
 #copyright {
+    position: fixed;
+    bottom: 0;
+    color: red;
     font-size: 10pt;
-    border-top: 1px solid black;
-    padding-top: 10px;
+    border-top: 1px solid red;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .back-to-top {
