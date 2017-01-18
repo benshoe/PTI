@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+Created on : 15 January 2017, 18:33:28
+    Author : Ben Schoen
 -->
 <html lang="en">
     <head>
+        <!-- An external stylesheet is configured here -->
         <link rel="stylesheet" href="style.css" type="text/css"/>
 
-        <title>TODO supply a title</title>
+        <title>MSc in Software Engineering modules</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div id="topbar">
+        <div id="topbar"> <!-- An id used both for navigating to from the 'back-to-top' divs
+            but also used as a selector in the style.css file -->
             <h1>MSc in Software Engineering</h1>
             <h3>Read more at <a href="https://www.online.liverpool.ac.uk/programmes/msc-in-software-engineering/structure#0Y0r3mYSFIc5ey0e.99" title="Open Software Engineering site in new page" target="_blank">Software Engineering</a></h3>
         </div>
+        <!-- The image is found on the opendays site promoting the University of Liverpool (http://www.opendays.com/institutions/university+of+liverpool-profile-overview.aspx) -->
         <img id="uol-image" src="./images/uol.jpg" alt="University of Liverpool"/>
         <div>
             <div id="sidenav">
                 <h2>Previous modules</h2>
-                <p>CKIT-501: Computer Structures</p>
-                <p>CKIT-510: Object Oriented Programming with Java</p>
-                <p>CKIT-507: Software Engineering</p>
+                <p><a href="#ckit-501">CKIT-501: Computer Structures</a></p>
+                <p><a href="#ckit-510">CKIT-510: Object Oriented Programming with Java</a></p>
+                <p><a href="#ckit-507">CKIT-507: Software Engineering</a></p>
                 <p><a href="#ckit-504">CKIT-504: Designing and Managing Databases</a></p>
-                <p>CKIT-522: Professional Issues Computing</p>
+                <p><a href="#ckit-522">CKIT-522: Professional Issues Computing</a></p>
                 <p><a href="#ckit-515">CKIT-515: Systems Analysis & Design Using an Object-Oriented Approach</a></p>
                 <h2>Interesting links</h2>
                 <p><a href="http://www.sitepoint.com/important-software-development-trends-2015/">Important software development trends</a>
             </div>
             <div class="main-modules">
                 <ul>
-                    <li><div class="module">CKIT-501: Computer Structures</div>
+                    <li id="ckit-501"><div class="module">CKIT-501: Computer Structures</div>
                         <div class="module-text"><p>This module covers everything from computer architecture to databases, 
                                 algorithms, languages, operating systems, communications, computer networks, artificial intelligence 
                                 and the theoretical foundations of computation. 
@@ -43,8 +45,9 @@ and open the template in the editor.
                                 developments as Information Technology (IT) professionals.
                             </p>                        
                         </div>
+                        <div class="back-to-top"><a href="#topbar">Back to top</a></div>
                     </li>
-                    <li><div class="module">CKIT-510: Object Oriented Programming with Java</div>
+                    <li id="ckit-510"><div class="module">CKIT-510: Object Oriented Programming with Java</div>
                         <div class="module-text"><p>This module develops the essential problem solving, and consequent programming skills, 
                                 required to generate well- structured object-oriented programs in Java. The module also explores important 
                                 techniques (such as distributed systems and component technology) that have made object-oriented programming today’s 
@@ -55,8 +58,9 @@ and open the template in the editor.
                                 <li>To provide students with an understanding of how to programme with a view to future software maintenance</li>
                             </ul>
                         </div>
+                        <div class="back-to-top"><a href="#topbar">Back to top</a></div>
                     </li>
-                    <li><div class="module">CKIT-507: Software Engineering</div>
+                    <li id="ckit-507"><div class="module">CKIT-507: Software Engineering</div>
                         <div class="module-text"><p>This module encompasses the theoretical foundation and practice of the three key phases of problem definition, 
                                 software development and maintenance. It covers identification, definition, design, analysis, verification and management of basic requirements, 
                                 coding, testing, evaluation and quality assurance. You will emerge from this module equipped to lead a programming project and deliver 
@@ -64,6 +68,7 @@ and open the template in the editor.
                             <p>This course provides the theoretical foundation concerning software approaches and provides exposure to the development, implementation and maintenance of the product. 
                                 The primary goal is to introduce students to the discipline of Software Engineering.</p>
                         </div>
+                        <div class="back-to-top"><a href="#topbar">Back to top</a></div>
                     </li>
                     <li id="ckit-504"><div class="module">CKIT-504: Designing and Managing Databases</div>
                         <div class="module-text"><p>
@@ -75,8 +80,9 @@ and open the template in the editor.
                                 <li>To provide students with an understanding of alternative database paradigm</li>
                             </ul>                        
                         </div>
+                        <div class="back-to-top"><a href="#topbar">Back to top</a></div>
                     </li>
-                    <li><div class="module">CKIT-522: Professional Issues Computing</div>
+                    <li id="ckit-522"><div class="module">CKIT-522: Professional Issues Computing</div>
                         <div class="module-text"><p>
                                 To function effectively, professional IT practitioners need not only the appropriate technical knowledge, skills and experience, 
                                 but also a broad understanding of the context in which they operate. IT professionals must understand the relationship 
@@ -88,7 +94,9 @@ and open the template in the editor.
                                 <li>Provide exposure to the legal and social issues that computing professionals may encounter as part of their practice</li>
                                 <li>Develop the key management skills required for effective utilisation and operation of IT</li>
                             </ul>
-                        </div></li>
+                        </div>
+                        <div class="back-to-top"><a href="#topbar">Back to top</a></div>
+                    </li>
                     <li id="ckit-515"><div class="module">CKIT-515: Systems Analysis &amp; Design Using an Object-Oriented Approach</div>
                         <div class="module-text"><p>
                                 This module presents the modern object-oriented approach to modelling and designing software systems, packages and products. 
@@ -98,7 +106,9 @@ and open the template in the editor.
                                 <li>To provide the skills and technical knowledge required to model software systems using the object-oriented approach</li>
                                 <li>To provide students with the ability to build models of software systems using the object-oriented approach</li>
                             </ul>
-                        </div></li>
+                        </div>
+                        <div class="back-to-top"><a href="#topbar">Back to top</a></div>    
+                    </li>
                 </ul>
                 <div id="copyright">&copy; Ben Schoen - 2017 - University of Liverpool - Week 1 Assignment</div>              
             </div>
