@@ -24,8 +24,15 @@ body {
     margin-top: 0px;
 }
 
+#sidenav a {
+    text-decoration: none;
+}
 #sidenav a:hover {
-    background-color: yellow;
+    background-color: darkgrey;
+}
+
+#sidenav a:visited {
+    text-decoration: none;
 }
 
 .main-modules {
@@ -62,5 +69,5 @@ ul li {
 
 .back-to-top {
     font-size: 8pt;
-    /*margin-top: 5px;*/
+    margin-top: 15px;
 }
