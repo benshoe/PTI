@@ -64,13 +64,10 @@ ul li {
 }
 
 #copyright {
-    position: fixed;
-    bottom: 0;
     color: red;
     font-size: 10pt;
     border-top: 1px solid red;
-    margin-top: 10px;
-    text-align: center;
+    padding-top: 10px;
 }
 
 .back-to-top {
