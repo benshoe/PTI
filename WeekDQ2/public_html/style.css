@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-jan-2017, 20:50:55
+    Author     : ben
+*/
+
+* {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 14px;
+}
+
+td:first-child {
+    border-right-color: black;
+    border-right-style: solid;
+    border-width: 1px;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    padding: 10px;
+}
+
+td.left {
+    width: 20%;
+}
+
+/* the book explains how to alternate the color for 
+   a background by supplying a different class to each
+   odd or even row and then styling the class in CSS.
+   However, it is possible with the pseudo-selector nth-child
+   with the keyword odd (or even) to set a style for every
+   odd child of a certain element, in this case tr
+*/
+tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+tr:nth-child(even) {
+    background-color: #c4ffd2;
+}
