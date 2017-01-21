@@ -1,22 +1,11 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 19-jan-2017, 20:50:55
-    Author     : ben
+    Author     : Ben Schoen
 */
 
 * {
     font-family: "Segoe UI",Arial,sans-serif;
     font-size: 14px;
-}
-
-td:first-child {
-    border-right-color: black;
-    border-right-style: solid;
-    border-width: 1px;
 }
 
 table {
@@ -32,16 +21,21 @@ td {
     padding: 10px;
 }
 
-td.left {
+td:first-child { /* I have chosen to use the selector first-child on the <td> element
+    This way I can add the black solid line to the right of each first <td> element
+    in each <tr>. */
+    border-right-color: black;
+    border-right-style: solid;
+    border-width: 1px;
     width: 20%;
 }
 
-/* the book explains how to alternate the color for 
+/* Deitel et al. (2012) )explain how to alternate the color for 
    a background by supplying a different class to each
    odd or even row and then styling the class in CSS.
    However, it is possible with the pseudo-selector nth-child
    with the keyword odd (or even) to set a style for every
-   odd child of a certain element, in this case tr
+   odd child of a certain element, in this case <tr>
 */
 tr:nth-child(odd) {
     background-color: lightgreen;
