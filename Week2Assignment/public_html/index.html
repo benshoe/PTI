@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Team</th>
+                        <th>Played</th>
+                        <th>Won</th>
+                        <th>Drawn</th>
+                        <th>Lost</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>City</td>
+                        <td>8</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>17</td>                        
+                    </tr>
+                    <tr>
+                        <td>United</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>14</td>                        
+                    </tr>
+                    <tr>
+                        <td>Wanderers</td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>11</td>                        
+                    </tr>
+                    <tr>
+                        <td>Rangers</td>
+                        <td>8</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>8</td>                        
+                    </tr>
+                    <tr>
+                        <td>town</td>
+                        <td>8</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>5</td>
+                        <td>5</td>                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <form>
+            <div>
+                <span>Please answer the following questions about the table on the left.</span>
+                <div>
+                    <fieldset>
+                        <legend>Which team has got 11 points?</legend>
+                        <input type="radio" name="team11Points" id="City" value="City"/>
+                        <label for="City">City</label>
+                        <input type="radio" name="team11Points" id="United" value="United"/>
+                        <label for="United">United</label>
+                        <input type="radio" name="team11Points" id="Wanderers" value="Wanderers"/>
+                        <label for="Wanderers">Wanderers</label>
+                        <input type="radio" name="team11Points" id="Rangers" value="Rangers"/>
+                        <label for="Rangers">Rangers</label>
+                        <input type="radio" name="team11Points" id="Town" value="Town"/>
+                        <label for="Town">Town</label>
+                        <input type="radio" name="team11Points" id="QuestionNotAnswered1" value="Question Not Answered" checked="checked"/>
+                        <label for="QuestionNotAnswered1">Question Not Answered</label>
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>How many games have Rangers won?</legend>
+                        <input type="radio" name="GamesWonByRangers" id="1" value="1"/>
+                        <label for="1">1</label>
+                        <input type="radio" name="GamesWonByRangers" id="2" value="2"/>
+                        <label for="2">2</label>
+                        <input type="radio" name="GamesWonByRangers" id="3" value="3"/>
+                        <label for="3">3</label>
+                        <input type="radio" name="GamesWonByRangers" id="4" value="4"/>
+                        <label for="4">4</label>
+                        <input type="radio" name="GamesWonByRangers" id="5" value="5"/>
+                        <label for="5">5</label>
+                        <input type="radio" name="GamesWonByRangers" id="QuestionNotAnswered2" value="-1"/>
+                        <label for="QuestionNotAnswered2">Question Not Answered</label>
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Which teams have drawn two games?</legend>
+                        <input type="checkbox" name="Drawn2Games" id="city2" value="City"/>
+                        <label for="city2">City</label>
+                        <input type="checkbox" name="Drawn2Games" id="united2" value="United"/>
+                        <label for="united2">United</label>
+                        <input type="checkbox" name="Drawn2Games" id="wanderers2" value="Wanderers"/>
+                        <label for="wanderers2">Wanderers</label>
+                        <input type="checkbox" name="Drawn2Games" id="rangers2" value="Rangers"/>
+                        <label for="rangers2">Rangers</label>
+                        <input type="checkbox" name="Drawn2Games" id="town2" value="Town"/>
+                        <label for="town2">Town</label>
+                    </fieldset>
+                </div>
+                <input type="submit" name="submit" value="Submit"/>
+                <input type="reset" name="reset" value="Clear"/>
+            </div>
+        </form>
+    </body>
+</html>
