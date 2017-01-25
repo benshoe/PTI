@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-jan-2017, 17:32:28
+    Author     : Ben Schoen
+*/
+
+* {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+#score {
+    float: left;
+    height: 100vh;
+    margin-right: 10vh;
+}
+#score table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#score th:first-child {
+    text-align: left;
+}
+
+#score td {
+    border: 1px solid green;
+    width: 10vh;
+    text-align: center;
+}
+
+#score td:first-child {
+    text-align: left;
+}
+
+#score thead {
+    background-color: black;
+    color: white;
+}
+
+#question {
+    
+    
+    /*float: right;*/
+}

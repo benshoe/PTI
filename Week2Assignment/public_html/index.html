@@ -8,10 +8,12 @@ and open the template in the editor.
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="./css/style.css" type="text/css"/>
     </head>
     <body>
-        <div>
+        <div id="score">
             <table>
                 <thead>
                     <tr>
@@ -68,39 +70,39 @@ and open the template in the editor.
             </table>
         </div>
         <form>
-            <div>
+            <div id="question">
                 <span>Please answer the following questions about the table on the left.</span>
                 <div>
                     <fieldset>
                         <legend>Which team has got 11 points?</legend>
                         <input type="radio" name="team11Points" id="City" value="City"/>
-                        <label for="City">City</label>
+                        <label for="City">City</label><br/>
                         <input type="radio" name="team11Points" id="United" value="United"/>
-                        <label for="United">United</label>
+                        <label for="United">United</label><br/>
                         <input type="radio" name="team11Points" id="Wanderers" value="Wanderers"/>
-                        <label for="Wanderers">Wanderers</label>
+                        <label for="Wanderers">Wanderers</label><br/>
                         <input type="radio" name="team11Points" id="Rangers" value="Rangers"/>
-                        <label for="Rangers">Rangers</label>
+                        <label for="Rangers">Rangers</label><br/>
                         <input type="radio" name="team11Points" id="Town" value="Town"/>
-                        <label for="Town">Town</label>
+                        <label for="Town">Town</label><br/>
                         <input type="radio" name="team11Points" id="QuestionNotAnswered1" value="Question Not Answered" checked="checked"/>
-                        <label for="QuestionNotAnswered1">Question Not Answered</label>
+                        <label for="QuestionNotAnswered1">Question Not Answered</label><br/>
                     </fieldset>
                 </div>
                 <div>
                     <fieldset>
                         <legend>How many games have Rangers won?</legend>
                         <input type="radio" name="GamesWonByRangers" id="1" value="1"/>
-                        <label for="1">1</label>
+                        <label for="1">1</label><br/>
                         <input type="radio" name="GamesWonByRangers" id="2" value="2"/>
-                        <label for="2">2</label>
+                        <label for="2">2</label><br/>
                         <input type="radio" name="GamesWonByRangers" id="3" value="3"/>
-                        <label for="3">3</label>
+                        <label for="3">3</label><br/>
                         <input type="radio" name="GamesWonByRangers" id="4" value="4"/>
-                        <label for="4">4</label>
+                        <label for="4">4</label><br/>
                         <input type="radio" name="GamesWonByRangers" id="5" value="5"/>
-                        <label for="5">5</label>
-                        <input type="radio" name="GamesWonByRangers" id="QuestionNotAnswered2" value="-1"/>
+                        <label for="5">5</label><br/>
+                        <input type="radio" name="GamesWonByRangers" id="QuestionNotAnswered2" value="-1" checked="checked"/>
                         <label for="QuestionNotAnswered2">Question Not Answered</label>
                     </fieldset>
                 </div>
@@ -108,15 +110,15 @@ and open the template in the editor.
                     <fieldset>
                         <legend>Which teams have drawn two games?</legend>
                         <input type="checkbox" name="Drawn2Games" id="city2" value="City"/>
-                        <label for="city2">City</label>
+                        <label for="city2">City</label><br/>
                         <input type="checkbox" name="Drawn2Games" id="united2" value="United"/>
-                        <label for="united2">United</label>
+                        <label for="united2">United</label><br/>
                         <input type="checkbox" name="Drawn2Games" id="wanderers2" value="Wanderers"/>
-                        <label for="wanderers2">Wanderers</label>
+                        <label for="wanderers2">Wanderers</label><br/>
                         <input type="checkbox" name="Drawn2Games" id="rangers2" value="Rangers"/>
-                        <label for="rangers2">Rangers</label>
+                        <label for="rangers2">Rangers</label><br/>
                         <input type="checkbox" name="Drawn2Games" id="town2" value="Town"/>
-                        <label for="town2">Town</label>
+                        <label for="town2">Town</label><br/>
                     </fieldset>
                 </div>
                 <input type="submit" name="submit" value="Submit"/>
